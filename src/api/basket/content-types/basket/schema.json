@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "baskets",
+  "info": {
+    "singularName": "basket",
+    "pluralName": "baskets",
+    "displayName": "basket",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "quantity": {
+      "type": "biginteger"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "categoryId": {
+      "type": "biginteger"
+    },
+    "productId": {
+      "type": "biginteger"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "quantities": {
+      "type": "biginteger"
+    },
+    "userEmail": {
+      "type": "email",
+      "required": true
+    }
+  }
+}
